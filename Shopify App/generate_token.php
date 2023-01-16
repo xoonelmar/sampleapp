@@ -41,6 +41,8 @@ if (hash_equals($hmac, $computed_hmac)) {
 	$access_token = $result['access_token'];
 
 	// Show the access token (don't do this in production!)
+	
+	//it is not advisable to print the access token if you gonna be publishing the app
 	// echo $access_token; // Nelmar just put it a comment because we gonna be publishing the app
 
 } else {
